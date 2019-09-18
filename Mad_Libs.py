@@ -1,3 +1,4 @@
 import random
-verbs = ["a","b","c"]
+#%%
+verbs = ["hello","b","c"]
 print(verbs)
