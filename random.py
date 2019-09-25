@@ -1,5 +1,3 @@
 #%%
-a= 19
-b= 200
-
-a+b
+def addnumbers(a, b, c):
+   return a+b
