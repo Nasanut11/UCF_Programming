@@ -1,4 +1,4 @@
 #%%
 
-def addnumbers(a):
+def addone(a):
     return a+1
