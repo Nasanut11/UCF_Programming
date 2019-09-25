@@ -1,3 +1,3 @@
 #%%
-def addnumbers(a, b, c):
+def addnumbers(a, b):
    return a+b
