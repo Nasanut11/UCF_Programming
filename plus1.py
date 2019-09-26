@@ -16,3 +16,9 @@ print(x)
 
 for x in [2,3,4]:
     print(x**x)
+
+#%%
+
+def double(input):
+    for x in input:
+        print(x**2)
