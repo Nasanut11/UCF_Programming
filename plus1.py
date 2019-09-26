@@ -19,6 +19,14 @@ for x in [2,3,4]:
 
 #%%
 
-def double(input):
+def double(input,exponent):
     for x in input:
-        print(x**2)
+        print(x*2)
+        
+#%%
+
+def exponent(x,y):
+    z=x
+    for n in range(1,y):
+        z=z*x
+    return z
