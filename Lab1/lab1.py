@@ -118,8 +118,7 @@ print(x, y, z)
 print(10/2+3)
 print(10/(2+3))
 
-#%% 
-#[markdown] 
+#%% [markdown] 
 # # Operators
 # Operators are one or more characters that designate a particular operation.
 # These include "+", "-", "/" and "*", but also include the function call
@@ -177,13 +176,22 @@ def f1(parameter1):
     return parameter1+1
 f1(1) # 1 is passed in as an argument to the function, and is bound to the local variable `parameter1
 
+#%% [markdown]
+# ## Parameters and Arguments
+# A *parameter* is the local variable that is associated with a function. The
+# function `f1` below has a single parameter, and it adds 1 to the value passed
+# in as an argument.
+def f1(parameter1):
+    return parameter1+1
+f1(1) # 1 is passed in as an argument to the function, and is bound to the local variable `parameter1
+
 #%% [markdown] 
 #
 # *ON YOUR OWN:* In this cell, Modify the function `multiply_2` to accept two
 # arguments and returns the result of multiplying them together. You may name
 # the arguments anything you want
-def multiply_2():
-    return
+def multiply_2(x, y):
+    return (x, y)
 
 #%% [markdown]
 # # Conditionals and Tests
