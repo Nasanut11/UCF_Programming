@@ -76,6 +76,7 @@ a = 5
 #%%
 # *ON YOUR OWN:* Assign an integer to the variable `b` above so that no error
 # will result and re-run this cell.
+b=6
 try:
     if(type(b)==type(0)):
         print("Well done.")
@@ -98,6 +99,11 @@ print(a)
 # - "Hello World"
 # - 42.0 
 # - True
+#%%
+x="Hello World"
+y=42.0
+z="true"
+print(x, y, z)
 
 #%% [markdown]
 # # Expressions
