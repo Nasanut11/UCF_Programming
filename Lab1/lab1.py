@@ -48,6 +48,12 @@
 # float
 # bool
 
+#%%
+print("Hello World, I'm a string!")
+print("'3' an integer")
+print("'2.5' is a float")
+print("'true' is a boolean")
+
 #%% [markdown]
 # # Types
 # You can discover the type of any value by using the method "type." Methods are
@@ -64,7 +70,7 @@ type(5) # Will print the "int" to the console.
 
 #%%
 a = 5
-#%% 
+#%% [markdown]
 # If you enter a variable without first defining it, you will receive a NameError:
 
 #%%
