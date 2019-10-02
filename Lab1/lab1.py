@@ -125,7 +125,7 @@ print(10/(2+3))
 # operator `()` and the member operator
 #
 
-#%% [markdown]
+# %% [markdown]
 # # Functions
 # Functions are bundles of code that can be executed multiple times. They are
 # "called" using a list of *arguments*. For instance, `print()` takes one or
@@ -167,6 +167,7 @@ print(3+return_four())
 # called "exclaim", and use it to concatenate the returned value to the string
 # "Hello World" in a print statement.
 
+
 #%% [markdown]
 # ## Parameters and Arguments
 # A *parameter* is the local variable that is associated with a function. The
@@ -181,6 +182,8 @@ f1(1) # 1 is passed in as an argument to the function, and is bound to the local
 # *ON YOUR OWN:* In this cell, Modify the function `multiply_2` to accept two
 # arguments and returns the result of multiplying them together. You may name
 # the arguments anything you want
+def multiply_2():
+    return
 
 #%% [markdown]
 # # Conditionals and Tests
