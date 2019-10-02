@@ -181,8 +181,6 @@ f1(1) # 1 is passed in as an argument to the function, and is bound to the local
 # *ON YOUR OWN:* In this cell, Modify the function `multiply_2` to accept two
 # arguments and returns the result of multiplying them together. You may name
 # the arguments anything you want
-def multiply_2(x, y):
-    return (x, y)
 
 #%% [markdown]
 # # Conditionals and Tests
