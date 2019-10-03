@@ -194,7 +194,7 @@ f1(1) # 1 is passed in as an argument to the function, and is bound to the local
 # the arguments anything you want
 #%%
 def multiply_2(x, y):
-    return (x*2, y*2)
+    return (x*y)
 
 #%% [markdown]
 # # Conditionals and Tests
@@ -217,7 +217,7 @@ if 5 > 3:
 # executed. The expression "str(input)" casts the value of input (which is
 # expected to be an integer) into a string in order to concatenate it with
 # another string.
-#
+#%%
 def compare_with_3(input):
     if input < 3:
         print(str(input) + " is less than 3")
@@ -238,6 +238,14 @@ compare_with_3(4)
 # 3 is equal to 3
 # compare(10,3) 
 # 10 is greater than 3
+#%%
+def compare(x, y):
+    if x > y:
+        print(str(x)+ " is greater than " + str(y))
+    elif x < y:
+        print(str(x)+ " is less than " + str(y))
+    else:
+        print(str(x)+ " and " +str(y)+ " are equal to each other.")
 
 #%% [markdown]
 # # Scope
