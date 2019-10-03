@@ -140,12 +140,14 @@ print("This is the result of a function call")
 # ## Defining a function
 # The function below, `my_print`, will execute the single instruction when it is called.
 # To define a function, use the following syntax:
+#%%
 def my_print():
     print("Function called")
 
 #%% [markdown]
 # ## Calling a function
 # To call a function that has previously been defined, you use the name of the function:
+#%%
 my_print()
 
 #%% [markdown]
@@ -153,6 +155,7 @@ my_print()
 # A function can *return* a value. This means that where the function was
 # called, the value is substituted. For a simple example, the function below, `return_four`
 # returns the integer 4. Its return value can be used in arithmetic expressions.
+#%%
 def return_four():
     return 4
 return_four()
@@ -166,6 +169,12 @@ print(3+return_four())
 # *ON YOUR OWN:* Write a function that returns the string "!" (exclamation),
 # called "exclaim", and use it to concatenate the returned value to the string
 # "Hello World" in a print statement.
+#%%
+def exclaim():
+    return "!"
+#%%
+print("Hello World", exclaim())
+
 
 
 #%% [markdown]
@@ -173,6 +182,7 @@ print(3+return_four())
 # A *parameter* is the local variable that is associated with a function. The
 # function `f1` below has a single parameter, and it adds 1 to the value passed
 # in as an argument.
+#%%
 def f1(parameter1):
     return parameter1+1
 f1(1) # 1 is passed in as an argument to the function, and is bound to the local variable `parameter1
@@ -182,8 +192,9 @@ f1(1) # 1 is passed in as an argument to the function, and is bound to the local
 # *ON YOUR OWN:* In this cell, Modify the function `multiply_2` to accept two
 # arguments and returns the result of multiplying them together. You may name
 # the arguments anything you want
-def multiply_2():
-    return
+#%%
+def multiply_2(x, y):
+    return (x*2, y*2)
 
 #%% [markdown]
 # # Conditionals and Tests
