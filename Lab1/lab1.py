@@ -254,6 +254,7 @@ def compare(x, y):
 # may be available. Parameters, for instance, are only available within the body of a function.
 # Any variable declared in the outer scope may be available inside of a function. 
 # For example:
+#%%
 x = 5
 def out_of_scope():
     print(x)
@@ -261,6 +262,7 @@ out_of_scope()
 
 #%% [markdown]
 # If a variable is declared inside of a function has the same name as the outer variable, it will "shadow" it:
+#%%
 x = 10
 def inside():
     # This will set the local variable x to 20, but not change the above variable x.
@@ -277,6 +279,7 @@ print(x)
 # 
 # This way, the function can be reused in multiple contexts.
 # If the function changes the value passed in, the new value can be assigned to the previosu variable:
+#%%
 def add_one(x):
     return x + 1
 x = 10
@@ -291,13 +294,14 @@ print(x)
 # defined using brackets. For instance, [1,2] is a sequence that contains the
 # integer 1 in the 0 index, and the integere 2 in the 1 location. The first
 # location of a sequence is 0. 
-#
+#%%
 sequence = [1,2]
 sequence
 
 #%% [markdown] The syntax for a for loop is the keyword `for` followed by the
 # name of a local variable that each value will be bound to, then  the keyword
 # `in` followed by the sequence to iterate over:
+#%%
 for value in [1,2]:
     print(value)
 
@@ -305,6 +309,7 @@ for value in [1,2]:
 # 
 # You can generate a sequence to iterate a specified number of
 # times using the `range` method:
+#%%
 for value in range(1,10):
     print(value)  
 
@@ -313,6 +318,7 @@ for value in range(1,10):
 # The while loop will continue executing until the expression after it is true.
 # This is useful if you don't know when the loop will end, whereas the `for`
 # loop is often called "definite iteration" for this reason. 
+#%%
 x = 10
 while x > 1:
     print(x)
@@ -324,6 +330,7 @@ while x > 1:
 # the 'import' keyword, and call methods using the '.' operator. One useful
 # method in the random function is the randint, which returns a random integere
 # between the two arguments. 
+#%%
 import random
 print(random.randint(2,100))
 print(random.randint(2,100))
@@ -335,3 +342,10 @@ print(random.randint(2,100))
 #
 # The function should accept a single argument. For instance, sum_random(2)
 # would sum two numbers between 1 and 100: 34 and 16 and return the value 50.
+#%%
+import random
+def sum_random(x):
+    if x > 1:
+        print(random.randint(1,100)+random.randint(1,100))
+    else:
+        print("Need more numbers!")
