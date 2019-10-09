@@ -346,7 +346,7 @@ print(random.randint(2,100))
 import random
 def sum_random(x):
     sum=0
-    for n in range(1,x+1):
+    for x in range(1,x+1):
         sum=sum+random.randint(1,100)
     return sum
 
