@@ -345,7 +345,9 @@ print(random.randint(2,100))
 #%%
 import random
 def sum_random(x):
-    if x > 1:
-        print(random.randint(1,100)+random.randint(1,100))
-    else:
-        print("Need more numbers!")
+    sum=0
+    for n in range(1,x+1):
+        sum=sum+random.randint(1,100)
+    return sum
+
+#%%
