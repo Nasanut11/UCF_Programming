@@ -23,6 +23,15 @@ except:
 
 #%%
 # Write your code here
+def factorial(input):
+    if(type(input)==type(3.0)):
+        raise ValueError("Bad Input")
+    if(input==0):
+        return 1
+    else:
+        return input*factorial(input-1)
+
+factorial(10)
 
 #%% [markdown]
 # # 2: print_times()
