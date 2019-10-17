@@ -23,6 +23,7 @@
 #
 # Updated 31 May 2018 to add compatibility with Python 3 (Python 2 still works)
 
+#%%
 from random import choice
 
 subjects = ['COUNT', 'STRANGER', 'LOOK', 'CHURCH', 'CASTLE', 'PICTURE',

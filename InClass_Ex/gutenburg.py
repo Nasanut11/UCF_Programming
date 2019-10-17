@@ -1,7 +1,7 @@
 #%% Change working directory from the workspace root to the ipynb file location. Turn this addition off with the DataScience.changeDirOnImportExport setting
 import os
 try:
-	os.chdir(os.path.join(os.getcwd(), 'Week_6_InClass'))
+	os.chdir(os.path.join(os.getcwd(), 'InClass_Ex'))
 	print(os.getcwd())
 except:
 	pass
@@ -39,7 +39,7 @@ text = strip_headers(load_etext(2701)).strip()
 blob = TextBlob(text)
 # print(text)  # prints 'MOBY DICK; OR THE WHALE\n\nBy Herman Melville ...'
 # This will save the text to a local .txt file in this directory.
-source = open('in-class/week-6/mobydick.txt','w',encoding="utf-16",newline='\n')
+source = open('UCF_Programming/InClass_Ex/mobydick.txt','w',encoding="utf-16",newline='\n')
 source.write(text)
 source.close()
 
