@@ -26,20 +26,20 @@
 #%%
 from random import choice
 
-subjects = ['COUNT', 'STRANGER', 'LOOK', 'CHURCH', 'CASTLE', 'PICTURE',
-            'EYE', 'VILLAGE', 'TOWER', 'FARMER', 'WAY', 'GUEST', 'DAY',
-            'HOUSE', 'TABLE', 'LABOURER']
-predicates = ['OPEN', 'SILENT', 'STRONG', 'GOOD', 'NARROW', 'NEAR',
-              'NEW', 'QUIET', 'FAR', 'DEEP', 'LATE', 'DARK', 'FREE',
+subjects = ['SUM ', 'ASSOCIATE ', 'SEE ', 'MOSQUE ', 'FORT ', 'IMAGE ',
+            'WINDOW ', 'TOWN ', 'SPIRE ', 'AGRICULTURALIST ', 'PASSAGE ', 'FRIEND ', 'NIGHT ',
+            'HOME ', 'TABLE ', 'WORKER ', 'SWORD ', 'SHEILD ', 'MAN ', 'WOMAN ']
+predicates = ['OPEN', 'QUIET', 'STRENGTH', 'GREAT', 'NARROW', 'CLOSE',
+              'NEW', 'JUMP', 'FAR', 'DEEP', 'LATE', 'DARK', 'FREE',
               'LARGE', 'OLD', 'ANGRY']
 conjunctions = [' AND ', ' OR ', ' THEREFORE ', '. ', '. ', '. ', '. ', '. ']
-operators = ['A', 'EVERY', 'NO', 'NOT EVERY']
+operators = ['A', 'EVERY', 'NO', 'NOT EVERY', 'HIS', 'HERS', 'MY', 'MINE']
 
 def phrase():
     text = choice(operators) + ' ' + choice(subjects)
-    if text == 'A EYE':
-        text = 'AN EYE'
-    return text + ' IS '
+    if text == 'A MAN':
+        text = 'AN WOMAN'
+    return text
 
 print('')
 print(phrase() + choice(predicates) + choice(conjunctions) +
