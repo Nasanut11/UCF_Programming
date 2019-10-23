@@ -13,8 +13,8 @@ print(x)
  
 #%%
 import re
-zipcode1 = "\d + \d + \d + \d + \d"
-zipcode2 = "\d + \d + \d + \d + \d + \d + \d +\d +\d"
-x = re.search("\d", zipcode1)
-x = re.search("\d", zipcode2)
-print(x)
+zipcode1 = "12345"
+zipcode2 = "12345-6789"
+x = re.search("^\d{5}$", zipcode1)
+y = re.search("^\d{5}(-\d{4})$", zipcode2)
+print(x, y)
