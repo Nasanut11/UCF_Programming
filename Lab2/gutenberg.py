@@ -178,4 +178,3 @@ for key, sentence in enumerate(blob.sentences):
 # Using the code above for figures, create a new table that lists the top 10 most frequent words and how many times they occur in that text.
 
 #Cannot use plottly because access has been denied to download on computer
-# device name is DTCBCMV3Y2
