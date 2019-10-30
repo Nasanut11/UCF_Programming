@@ -38,10 +38,16 @@ text = strip_headers(load_etext(2701)).strip()
 blob = TextBlob(text)
 # print(text)  # prints 'MOBY DICK; OR THE WHALE\n\nBy Herman Melville ...'
 # This will save the text to a local .txt file in this directory.
-source = open('in-class/week-6/mobydick.txt','w',encoding="utf-16",newline='\n')
+source = open('Lab2/mobydick.txt','w',encoding="utf-16",newline='\n')
 source.write(text)
 source.close()
 
+# For whatever reason, the line encoding the placement of the 
+# txt will not run as a module. The error I am recieving is:
+#No module named 'gutenberg.acquire'; 'gutenberg' is not a package
+#When trying to research my error, I ended up being directed to these pages:
+#https://pypi.org/project/Gutenberg/0.1.1/
+#https://stackoverflow.com/questions/48637347/importerror-cannot-import-name-gutenburg
 
 #%%
 type(text)
