@@ -42,12 +42,6 @@ source = open('Lab2/mobydick.txt','w',encoding="utf-16",newline='\n')
 source.write(text)
 source.close()
 
-# For whatever reason, the line encoding the placement of the 
-# txt will not run as a module. The error I am recieving is:
-#No module named 'gutenberg.acquire'; 'gutenberg' is not a package
-#When trying to research my error, I ended up being directed to these pages:
-#https://pypi.org/project/Gutenberg/0.1.1/
-#https://stackoverflow.com/questions/48637347/importerror-cannot-import-name-gutenburg
 
 #%%
 type(text)
@@ -140,7 +134,17 @@ fig.show()
 
 # Choose a text that was not previously analyzed above from Project Gutenberg.
 # 1. Write code that retrieves and writes the text to a file in the current project. You may save it to any file, but I recommend to save it to the lab2 subdirectory.
+#%%
+from gutenberg.acquire import load_etext
+from gutenberg.cleanup import strip_headers
+from textblob import TextBlob
 
+text = strip_headers(load_etext(1065)).strip()
+blob = TextBlob(text)
+
+source = open('Lab2/(The_Raven).txt','w',encoding="utf-16",newline='\n')
+source.write(text)
+source.close()
 
 #%%
 # 2. Write code that retrieves the text (if downloaded) and saves it to a variable. 
