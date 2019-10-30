@@ -145,15 +145,18 @@ blob = TextBlob(text)
 source = open('Lab2/(The_Raven).txt','w',encoding="utf-16",newline='\n')
 source.write(text)
 source.close()
+print(text)
 
 #%%
 # 2. Write code that retrieves the text (if downloaded) and saves it to a variable. 
-
+#See number 1. in this list. The print function allows for this.
 
 #%%
 # 3. Create a TextBlob from the variable above. This may involve locating the end of the header. 
 # Save the resulting TextBlob for use in the following cells. 
-
+#%%
+poe = TextBlob(text)
+poe.word_counts["raven"]
 
 #%%
 # [2-2] ON YOUR OWN:
