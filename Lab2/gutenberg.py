@@ -142,7 +142,7 @@ from textblob import TextBlob
 text = strip_headers(load_etext(1065)).strip()
 blob = TextBlob(text)
 
-source = open('Lab2/(The_Raven).txt','w',encoding="utf-16",newline='\n')
+source = open('(The_Raven).txt','w',encoding="utf-16",newline='\n')
 source.write(text)
 source.close()
 print(text)
@@ -164,7 +164,8 @@ poe.word_counts["raven"]
 # Write code that finds the top 5 longest sentences in the work. You may store or display them however you choose, and you may build off of the code above that finds the longest sentence.
 #%%
 from textblob import TextBlob
-blob - TextBlob(text)
+from operator import itemgetter
+blob = TextBlob(text)
 max = 0
 index = 0
 # Find the longest sentence in the work
