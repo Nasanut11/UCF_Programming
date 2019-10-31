@@ -163,14 +163,20 @@ poe.word_counts["raven"]
 
 # Write code that finds the top 5 longest sentences in the work. You may store or display them however you choose, and you may build off of the code above that finds the longest sentence.
 #%%
+from textblob import TextBlob
+blob - TextBlob(text)
 max = 0
 index = 0
 # Find the longest sentence in the work
+mylist = []
 for key, sentence in enumerate(blob.sentences):
+        mylist.append(
+        (sentence,len(sentence.words))        
+        )
     if(len(sentence.words) > max):
         max = len(sentence.words)
         index = key
-print(sentence)
+sorted(mylist, key=itemgetter(1))
 
 #%%
 # [2-3] ON YOUR OWN:
