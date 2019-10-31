@@ -170,7 +170,7 @@ index = 0
 # Find the longest sentence in the work
 mylist = []
 for key, sentence in enumerate(blob.sentences):
-        mylist.append(
+    mylist.append(
         (sentence,len(sentence.words))        
         )
     if(len(sentence.words) > max):
