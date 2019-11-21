@@ -6,4 +6,4 @@ SUMMARY: Ideally something with Unity or Processing to create either a mini game
 
 FEATURES: 
 For Processing Idea: 1. Adding a new planet to the "Planets" example. 2. Making Earth revolve around the Sun as well. 3. Scaling the planets to the relative acutal sizes, or at least still visable but not grotesquely oversized.
-For the Unity Idea: 1. Create an animation for a future character model that can then be used in a wide array of NPC characters in an RPG. 
+For the Unity Idea: 1. Create an animation for a future character model that can then be used in a wide array of NPC characters in an RPG. Something that could be applied to a skeletal mesh of a character to do a simple action, i.e. bend down, or wave.
