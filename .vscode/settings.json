@@ -1,5 +1,11 @@
 {
+<<<<<<< HEAD
     "python.pythonPath": "C:\\Users\\jfher\\Anaconda3\\python.exe",
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true
+=======
+    "python.pythonPath": "C:\\ProgramData\\Miniconda3\\python.exe",
+    "python.linting.enabled": true,
+    "git.ignoreLimitWarning": true
+>>>>>>> 05f9ab497c0865101267a0b5646bc6a4c265043c
 }
