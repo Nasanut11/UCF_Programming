@@ -1,7 +1,4 @@
-# Even though there are multiple objects, we still only need one class. 
-# No matter how many cookies we make, only one cookie cutter is needed.
-class Car(object):
-# The Constructor is defined with arguments.
+class Cat(object):
     def __init__(self, c, xpos, ypos, xspeed):
         self.c = c
         self.xpos = xpos
@@ -12,7 +9,7 @@ class Car(object):
         stroke(0)
         fill(self.c)
         rectMode(CENTER)
-        rect(self.xpos, self.ypos, 20, 10);
+        rect(self.xpos, self.ypos, 50, 20);
     
     def drive(self):
         self.xpos = self.xpos + self.xspeed;
@@ -32,12 +29,3 @@ def draw():
   myCar2.drive()
   myCar2.display()
   
-  # What follows is to initiate the spacebar event 
-  def draw():
-      spacebar(keyReleased)
-  def keyReleased(spacebar):
-    global value
-    if value == 0:
-        value = 255
-    else:
-        value = 0
