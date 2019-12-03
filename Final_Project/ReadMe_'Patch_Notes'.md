@@ -1,3 +1,9 @@
+CONCEPT 0.1
+SUMMARY: The bulk of the project changed mostly due to the Processing example "Planets" is soley a Java based program and cannot be run under Python. In order to use that example to build from I'd have to convert the entire program to Python, or learn enough Java to change the program. So I decided that I would switch over to creating an interactive story in Twine. Using HTML, I will attempt to create a story that is non-linear, grasping more experience in HTML and in narrative creation. 
+
+FEATURES:
+
+
 CONCEPT 0.0
 
 NAME OF PROJECT: STILL UNTITLED
