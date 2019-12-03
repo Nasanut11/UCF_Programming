@@ -12,3 +12,10 @@ https://py.processing.org/reference/keyReleased.html
 https://py.processing.org/reference/keyPressed.html
 
 3-3:
+I created a new class called "Cat", and made Cat1 though Cat6 varying the colours, placements, and speeds. Partially I wanted to see how fast the fastest number I could get was, so I made Cat6 go 1000 units per whatever and broke the code. All other cats raced off from the start, while I assume Cat6 was going so fast that the program gave up trying to render it.
+
+3-4:
+For this problem I made an arbitrarry class titled "Bear". The colour I attempted to draw it as was (0, 255, 100), which I dont believe worked because it still came out black. I then attempted to change the background colour by making it (250, 100, 100), which did not work in the first "def draw" section, but did in the second one. It created this salmon coloured background, and then hindered the drawing of the mouse in the text box. I don't know why this is as there are no errors (seemingly) in the code, and Google yeilded no results for this issue...
+
+3-5:
+I am not exactly clear as to what is being meant here and am assuming I'm missing some element in one of the previous examples. I've reread the past questions and cannot find anything different. So I'm lost for this one...
