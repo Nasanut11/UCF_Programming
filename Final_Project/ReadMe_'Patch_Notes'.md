@@ -1,5 +1,12 @@
 TITLE: A KNIGHT, A MAGE, AND A JELLYBEAN WALK INTO A BAR
-VERSION 1.0:
+VERSION 1.5:
+
+TITLE: A KNIGHT, A MAGE, AND A JELLYBEAN WALK INTO A BAR
+VERSION 1.0: The story is complete, adding not just three endings, but five techniquly due to randomization implemented in the final choices. I have also "themed" certain parts of the story and changed the text to match that said sections.
+Mage - Right Alignned
+Knight - Left Alignned
+Main/Start - Center Alignned
+End - Center Alignned
 
 TITLE: A KNIGHT, A MAGE, AND A JELLYBEAN WALK INTO A BAR
 VERSION 0.5: I've created a basic fantasy narrative where the player can choose to become either a Knight or a Mage. Through the narratives of either side of the story, they will be given choices to pick guiding the story. Both points will converge at certain points of the "main story" and then have more choices.
