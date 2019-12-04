@@ -1,3 +1,9 @@
+TITLE: A KNIGHT, A MAGE, AND A JELLYBEAN WALK INTO A BAR
+VERSION 1.0:
+
+TITLE: A KNIGHT, A MAGE, AND A JELLYBEAN WALK INTO A BAR
+VERSION 0.5: I've created a basic fantasy narrative where the player can choose to become either a Knight or a Mage. Through the narratives of either side of the story, they will be given choices to pick guiding the story. Both points will converge at certain points of the "main story" and then have more choices.
+
 CONCEPT 0.1
 SUMMARY: The bulk of the project changed mostly due to the Processing example "Planets" is soley a Java based program and cannot be run under Python. In order to use that example to build from I'd have to convert the entire program to Python, or learn enough Java to change the program. So I decided that I would switch over to creating an interactive story in Twine. Using HTML, I will attempt to create a story that is non-linear, grasping more experience in HTML and in narrative creation. 
 
