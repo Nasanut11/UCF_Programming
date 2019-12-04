@@ -1,12 +1,14 @@
 TITLE: A KNIGHT, A MAGE, AND A JELLYBEAN WALK INTO A BAR
-VERSION 1.5:
+VERSION 1.5: The game successfully runs through all five options from start to finish. I've added pictures for various scenarios, and checked that the randomization elements towards the end work brilliantly. As far as text goes, I'm sure their are minor grammatical or spelling errors that I'm overlooking, though I am actively searching and elimenating them.
 
 TITLE: A KNIGHT, A MAGE, AND A JELLYBEAN WALK INTO A BAR
 VERSION 1.0: The story is complete, adding not just three endings, but five techniquly due to randomization implemented in the final choices. I have also "themed" certain parts of the story and changed the text to match that said sections.
-Mage - Right Alignned
-Knight - Left Alignned
-Main/Start - Center Alignned
-End - Center Alignned
+Mage - Right Alignned, blue text
+Knight - Left Alignned, redish HTML text
+Main/Start - Center Alignned, greenish HTML text
+Bar - Center Alignned, orange text
+End - Center Alignned, tealish HTML text
+I've also changed the hover to text #0B0EEF, which is a reddish colour from the normal orange I made the choice text. The font is also Bookman, though I attempted to make it Aclonica by using the CSS Google fonts to link and pull from, but this did not work as the text would not change.
 
 TITLE: A KNIGHT, A MAGE, AND A JELLYBEAN WALK INTO A BAR
 VERSION 0.5: I've created a basic fantasy narrative where the player can choose to become either a Knight or a Mage. Through the narratives of either side of the story, they will be given choices to pick guiding the story. Both points will converge at certain points of the "main story" and then have more choices.
