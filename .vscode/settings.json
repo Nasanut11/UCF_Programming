@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "c:\\Users\\jfher\\Documents\\Python Scripts\\_conda.exe"
+    "python.pythonPath": "c:\\Users\\jfher\\Documents\\Python Scripts\\_conda.exe",
+    "gitdoc.enabled": true
 }
