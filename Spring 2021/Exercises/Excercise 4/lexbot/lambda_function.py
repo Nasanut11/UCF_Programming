@@ -19,7 +19,8 @@ def lambda_handler(event, context):
     import secrets
     title = ["Attack on Titan", "Naruto", "Naruto: Shippuden", "Boruto: Naruto Next Generations", "Death Note", "Sword of the Stranger", "Natsume's Book of Friends",
              "Full Metal Alchemist: Brotherhood", "One Punch Man", "My Hero Academia", "Cowboy Bebop", "Magi Series", "Erased", "Yuri on Ice", "Sword Art Online", "Haikyu", 
-             "Bleach", "One Piece", "Tokyo Ghoul", "Black Torch", "Jujitsu Kaisen", "Your Lie in April", "Akudama Drive", "High Rise Invasion"]
+             "Bleach", "One Piece", "Tokyo Ghoul", "Black Torch", "Jujitsu Kaisen", "Your Lie in April", "Akudama Drive", "High Rise Invasion", "Pokemon: Indigo Leauge", 
+             "Pokemon: Adventures in the Orange Islands", "Pokemon: The Johto Journeys", "Pokemon: Johto League Champions", "Pokemon: Master Quest"]
     if event["currentIntent"]["name"] == "anime":
         result["dialogAction"]["message"]["content"] = (secrets.choice(title))
 
