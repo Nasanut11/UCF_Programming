@@ -16,7 +16,14 @@ def lambda_handler(event, context):
             }
         }
     }
-    if event["currentIntent"]["name"] == "four":
+    import secrets
+    title = ["Attack on Titan", "Naruto", "Naruto: Shippuden", "Boruto: Naruto Next Generations", "Death Note", "Sword of the Stranger", "Natsume's Book of Friends",
+             "Full Metal Alchemist: Brotherhood", "One Punch Man", "My Hero Academia", "Cowboy Bebop", "Magi Series", "Erased", "Yuri on Ice", "Sword Art Online", "Haikyu", 
+             "Bleach", "One Piece", "Tokyo Ghoul", "Black Torch", "Jujitsu Kaisen", "Your Lie in April", "Akudama Drive", "High Rise Invasion"]
+    if event["currentIntent"]["name"] == "anime":
+        result["dialogAction"]["message"]["content"] = (secrets.choice(title))
+
+    elif event["currentIntent"]["name"] == "four":
         upper = event["currentIntent"]["slots"]["upper"]
         lower = event["currentIntent"]["slots"]["lower"]
         # Do the intent 1
