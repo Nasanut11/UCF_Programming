@@ -1,0 +1,21 @@
+{
+    "origin": ["#name# #latinname.capitalize# is a genus of #n1# - #n2# species of #biome# plants in the #family1# family, #family2#. Most are native to several planets of the #galaxyname# galaxy such as #planets#, #planets#, #planets#, #planets#, and vast variety of species could also be found there."],
+    "name": ["Grainia","Shuttera","Vestia","Brurora","Gaulia","Eatania","Hiccinda"],
+    "latinname": ["Portia","Alliga","Miror","Desista","Iustia","Cogere","Culpa","Trginita"],
+    "n1":["100","200","300"],
+    "n2":["400","500","600"],
+    "biome":["deciduous","tropical","coniferous","evergreen"],
+    "family1":["dogbane","nightshade","legume","cucurbits","brassicas","alliums","grass"],
+    "family2":["Apocynaceae","Thooladae","Wuulaxdae","Uthuluadae","Bounidae","Tridae","Trydae"],
+    "galaxyname": ["Myrmidon","Virgo Ophiuchi","Aristaeus Cloud","Eyelash Galaxy","WP-738","AIV 9K"],
+    "planets":["Enalont","Leramm","Rerr'an","Ojjici","Tealel"]
+    }
+{
+    "origin": ["The #fauna.capitalize# of #planetname.capitalize# exists in the #biome# biome. Most active during the #season#, it primarily feasts upon the #florafauna.capitalize#."],
+    "fauna": ["aarkack", "trodonshan", "cephelator", "myynuk", "yatuk", "oorrthan", "mouldun"],
+    "flora": ["wuuthrax flowers", "troolium fruit", "yaarkuz berries", "tritary berries", "jaxx fruit", "qutrix berries", "xatrakx fruit"],
+    "planetname": ["tryack f1", "tryack h1", "moothall", "tyrhan", "mothuull", "yarthol c", "yarthol d", "yarthol j2"],
+    "biome": ["tropical", "desert", "temperate", "wetland", "savannah", "grassland", "plains", "mountain", "mesa", "river", "aquatic", "oceanic"],
+    "season": ["winter", "summer", "spring", "autumn"],
+    "florafauna": ["aarkack", "trodonshan", "cephelator", "myynuk", "yatuk", "oorrthan", "mouldun", "wuuthrax flowers", "troolium fruit", "yaarkuz berries", "tritary berries", "jaxx fruit", "qutrix berries", "xatrakx fruit"]
+    }
