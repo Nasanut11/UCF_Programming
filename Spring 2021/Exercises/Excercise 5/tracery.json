@@ -11,6 +11,7 @@
     "galaxyname": ["Myrmidon","Virgo Ophiuchi","Aristaeus Cloud","Eyelash Galaxy","WP-738","AIV 9K"],
     "planets":["Enalont","Leramm","Rerr'an","Ojjici","Tealel"]
     }
+    
 //John's tracery file//
 {
     "origin": ["The #fauna.capitalize# of #planetname.capitalize# exists in the #biome# biome. Most active during the #season#, it primarily feasts upon the #florafauna.capitalize#."],
@@ -21,4 +22,24 @@
     "season": ["winter", "summer", "spring", "autumn"],
     "florafauna": ["aarkack", "trodonshan", "cephelator", "myynuk", "yatuk", "oorrthan", "mouldun", "wuuthrax flowers", "troolium fruit", "yaarkuz berries", "tritary berries", "jaxx fruit", "qutrix berries", "xatrakx fruit"]
     }
+
 //Combo of both brain-cells//
+{
+    "origin": ["Name: #name#, Type: #type#, Sky Color: #color#, Moons: #moons#, Size: #size# x Earth, Radius: #radius# miles, Temperature: #temperature# °C, Water Prevalence: #water#, Earth Life: #life#, Length of Day: #day#, Length of Year: #year#, Seasonal Variations: #variation#"],
+    "name": ["#syl1##syl2##syl3##"],
+    "syl1": ["Ar","Dal","Nyi","Meat","Shi"],
+    "syl2": ["Phi","Com","Ri","Poss","Pro","Ing"],
+    "syl3": ["Lye","War","Ae","Le","Ran","Lan"],
+    "number": ["1","2","3","4","5","6","7","8","9","0"],
+    "type": ["rocky", "water-world", "Earth-like", "desert", "humid", "frozen", "molten", "extreme temperatures", "ice giant", "gas giant", "toxic atmosphere", "no atmosphere"],
+    "color": ["red", "red-orange", "yellow", "lime", "green", "cyan", "blue", "magenta", "indigo", "violet", "ultraviolet"],
+    "moons": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50"],
+    "size": ["0.#number##number# x Earth"],
+    "radius": ["#number#number##number##number# miles"],
+    "temperature": ["-#number#number#number# / #number#number#number#"],
+    "water" : ["#number##number#%"],
+    "life": ["Habitable","Inhabitable"],
+    "day": ["#number##number# hours"],
+    "year": ["#number##number# Earth Years"],
+    "variation": ["Multiple distinct seasons with notable temperature differences during the year.","Extreme: The planet's axial tilt results in extremely long-lasting seasons.","Slight variations: Temperatures vary only slightly based on the position of the planet over the year."]
+    }
